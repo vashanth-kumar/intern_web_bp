@@ -1,41 +1,33 @@
-.container {
+.input-group .bootstrap-tagsinput {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     
-    margin-bottom: 1em;
+}
+.input-group-btn {
+    height: 0px;
+}
+.input-group-btn .btn {
+    height: 100%;
+}
+#send{
+    color: royalblue;
+    background-color: grey;
 }
 
-.toast {
-    position: absolute; 
-    bottom: 0; 
-    right: 0;
-    margin: 1em;   
-    z-index: 99;
+form{
+    font-size: 1.5em;
+}
+.alert-tag {
+    display: inline-block;
+    padding: 5px;
+    padding-bottom:2px;
+    margin: 5px;
+}
+.alert-tag.alert-dismissible {
+    padding-right: 25px;
 }
 
-.toast .logo {
-    height: 2em;
-}
 
-/* IMG displaying */
-.person-card {
-    margin-top: 5em;
-    padding-top: 5em;
-    border-top: 1px solid #990000 !important;
-}
-.person-card .card-title{
-    text-align: center;
-}
-.person-card .person-img{
-    width: 10em;
-    position: absolute;
-    top: -5em;
-    left: 50%;
-    margin-left: -5em;
-    border-radius: 100%;
-    overflow: hidden; 
-    background-color: white;
-    border-top: 3px solid #990000;
-}
-
-.btn-perso {
-    position: center;
+body {
+  padding: 25px;
 }

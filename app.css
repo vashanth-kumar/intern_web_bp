@@ -1,17 +1,12 @@
-body{
-    background-color: blue;
-}
+
 button{
-    padding: 5px;
-    color: aqua;
-    background-color: black;
+    padding: 5px 7px;
+    color: royalblue;
+    
     
 }
 
-button:hover{
-    color:black;
-    background-color: aqua;
-}
+
 #editor {
     overflow:scroll; 
     max-height:300px;
@@ -25,7 +20,7 @@ button:hover{
 #editor table tr th {
    font-size: 80%;
    padding: 0.5em;
-   font-align: center;
+   
 }
 #editor table tr td {
    padding: 0.3em;
@@ -73,4 +68,57 @@ margin: 1px;
 border: solid 1px rgb(102, 175, 233);
 outline: 0px none;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6);
+} 
+.container {
+    
+   margin-bottom: 1em;
+}
+
+.toast {
+   font-size: 1em;
+   background-color: green;
+
+   position: absolute; 
+   bottom: 0; 
+   right: 0;
+   margin: 1em;   
+   z-index: 99;
+}
+#myfile{
+   background-color: whitesmoke;
+   border-radius: 2px;
+   color: black;
+}
+.toast .logo {
+   
+   height: 2em;
+}
+
+/* IMG displaying */
+.person-card {
+   margin-top: 5em;
+   padding-top: 5em;
+   border-top: 1px solid #990000 !important;
+}
+.person-card .card-title{
+   text-align: center;
+}
+.person-card .person-img{
+   width: 10em;
+   position: absolute;
+   top: -5em;
+   left: 50%;
+   margin-left: -5em;
+   border-radius: 100%;
+   overflow: hidden; 
+   background-color: white;
+   border-top: 3px solid #990000;
+}
+
+.btn-perso {
+   position: center;
+}
+
+#sub_btn{
+   font-size: 1em;
 }

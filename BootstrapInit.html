@@ -24,10 +24,10 @@
     
   </head>
   <body>
-    
-        <form>
-        
-        <label for="Templete">Templete:</label>
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+        <form >
+        <fieldset>
+        <label for="Templete color:white">Templete:</label>
 
         <select name="Templete" id="Templete">
         <option value="Templete1">English</option>
@@ -35,16 +35,25 @@
         </select><br><br>
         <link rel="stylesheet" href="bt_toast.css">
 
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" 
+          aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
   
 
-<h3>Tag field</h3>
-<div class="col-md-6">
+
+<!--<div class="col-md-6">-->
+  <div class="form-group">
+   
 <div class="input-group">
-  <input type="text-md-2" 
-         class="bootstrap-tagsinput form-control" 
-         data-role="tagsinput" 
-         value="Amsterdam,Washington,Sydney,Beijing,Cairo" />
-</div>
+  <br>
+  <label for="InputNumber">Number</label>
+  <br>
+  <input type="text" class="bootstrap-tagsinput form-control" 
+  id="InputNumber" data-role="tagsinput" placeholder="Enter number"/>
+        </div>
+
 <!-- <span class="input-group-btn">
     <button class="btn btn-default" type="button">Go!</button>
   </span>
@@ -52,7 +61,6 @@
 </div>
 <br>
 
-<br>
 
 <div>
   <br>
@@ -65,14 +73,17 @@
 <br>
 
 
+          </fieldset>
+
 
       <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000">
         <div class="toast-header">
             <img src="https://www.logolynx.com/images/logolynx/72/72279ec5b6c49aef83d58464822bdc7d.jpeg" class="rounded mr-2 logo" alt="logo toast">
             <strong class="mr-auto">!!uploaded succesfully</strong>
             
-
         </form>
+
+      </div>
      
        
     <!-- Optional JavaScript -->

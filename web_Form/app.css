@@ -1,0 +1,27 @@
+container{
+    align-items: center;
+
+    justify-content: center;
+}
+
+fieldset{
+    
+        display: flex;
+        height: 200px;
+        align-items: center;
+        ;
+            
+    height: 100vh;
+}
+.form-row 
+{
+    justify-content: center;
+}
+.hii{
+    background-color:blue;
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
